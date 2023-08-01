@@ -1,0 +1,34 @@
+# $XDG_CONFIG_HOME/k9s/hotkey.yml
+hotKey:
+  shift-1:
+    shortCut:    Shift-1
+    description: Viewing pods
+    command:     pods
+  shift-2:
+    shortCut:    Shift-2
+    description: View Lambda Functions
+    command:     lambda.aws.upbound.io/v1beta1/functions
+  shift-3:
+    shortCut:    Shift-3
+    description: View IAM Role Policy Attachments
+    command:     iam.aws.upbound.io/v1beta1/rolepolicyattachments
+  shift-4:
+    shortCut:    Shift-4
+    description: View IAM Roles
+    command:     iam.aws.upbound.io/v1beta1/roles
+  shift-5:
+    shortCut:    Shift-5
+    description: View IAM Policies
+    command:     iam.aws.upbound.io/v1beta1/policies
+  shift-6:
+    shortCut:    Shift-6
+    description: View SQS Queues
+    command:     sqs.aws.upbound.io/v1beta1/queues
+  shift-9:
+    shortCut:    Shift-9
+    description: View Ingresses
+    command:     ingress
+  shift-0:
+    shortCut:    Shift-0
+    description: View deployments
+    command:     dp

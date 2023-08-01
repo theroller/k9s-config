@@ -1,0 +1,3 @@
+alias:
+  xro:  iam.aws.upbound.io/v1beta1/roles
+  xrpa: iam.aws.upbound.io/v1beta1/rolepolicyattachments
